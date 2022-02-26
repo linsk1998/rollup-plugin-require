@@ -1,0 +1,32 @@
+{
+  "name": "rollup-plugin-require",
+  "version": "0.0.1",
+  "description": "Transform require into import.",
+  "main": "index.js",
+  "scripts": {
+    "test": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linsk1998/rollup-plugin-require.git"
+  },
+  "keywords": [
+    "rollup",
+    "import",
+    "require"
+  ],
+  "author": "linsk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linsk1998/rollup-plugin-require/issues"
+  },
+  "homepage": "https://github.com/linsk1998/rollup-plugin-require#readme",
+  "devDependencies": {
+    "rollup": "^2.61.1"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.2",
+    "estree-walker": "^1.0.1",
+    "magic-string": "^0.25.5"
+  }
+}
